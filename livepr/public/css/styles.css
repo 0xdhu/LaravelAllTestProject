@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+
+	padding: 20px;
+	border-bottom: 1px solid lightgray;
+	font-family:PRK P Hulim ;
+	font-size: 30px;
+	color: #ffff00;
+}
+
+#nav{
+	background: green;
+}
+
+#nav > a{
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	font-family:천리마; 
+}
+
+#nav > a:hover{
+	background: black;
+}
+
+#nav > a.active{
+	background: black;
+}
+
+#content{
+	padding: 10px;
+}
+
+#content .page-title{
+	padding: 10px 10px 10px 0;
+	border-bottom: 1px solid lightgray;
+}
+
+#content .page-title > a{
+	font-size: 12px;
+	display: inline-block;
+	float: right;
+	padding: 5px 10px;
+	background-color: #2A7B15;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+#content .page-content{
+	padding: 10px 10px 10px 0;
+}
+
+table.data-list{
+	width: 100%;
+}
+
+table.data-list td, table.data-list th{
+	
+	padding: 5px 10px;
+}
+
+table.data-list th{
+	background-color: lightgray;
+}
+
+table.data-list tr:nth-child(odd){
+	background-color: rgba(211,211,211, 0.2);
+}
+
+#footer{
+	padding: 10px;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+.row{
+	padding: 10px;
+}
+
+.row label{
+	display: inline-block;
+	width: 100px;
+	font-weight: bold;
+}
+
+.row label > span{
+	color: red;
+}
+
+.row label + span{
+	font-style: italic;
+}
+
+.row label + input[type=text],
+.row label + input[type=date]{
+	width: calc(100% - 110px);
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	padding: 5px 10px;
+}
+
+.error{
+	border: 2px solid red !important;
+}
+
+form .row > p{
+	color: red;
+	text-align: right;
+	font-style: italic;
+}
+
+.col{
+	display: inline-block;
+}
+
+.col .col-12{
+	width: 100%;
+}
+
+.col .col-6{
+	width: 50%;
+}
+
+.btn{
+	background-color: #2A7B15;
+	padding: 5px 10px;
+	border: 0px solid lightgray;
+	border-radius: 5px;
+	color: white;
+}
+
+.alert{
+	background-color: rgba(0, 255, 0, 0.5);
+	padding: 10px;
+	color: blue;
+}
+
